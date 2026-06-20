@@ -1,0 +1,136 @@
+<!--Made on June 18, 2026 By Forest :)-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me</title>
+        <style>
+            body { background-image: url('https://t3.ftcdn.net/jpg/04/37/99/10/360_F_437991086_GW6gZ630a3YfPJlHz2F22UeH28jZBaMI.jpg');}
+
+            div { text-align: center; background-image: url('https://w0.peakpx.com/wallpaper/490/32/HD-wallpaper-dark-grey-abstract-abstract-background-dark-grey-thumbnail.jpg'); color: rgb(255, 255, 255); width: 50%; margin: auto; padding: 20px; border-radius: 10px}
+            
+            #gameimg { width: 190px; height: 250px; border-radius: 10px; margin-bottom: 20px;}
+
+            #musicimg { width: 190px; height: 250px; border-radius: 10px; margin-bottom: 20px;}
+
+            #movieimg { width: 190px; height: 250px; border-radius: 10px; margin-bottom: 20px;}
+
+            #boardimg { width: 190px; height: 250px; border-radius: 10px; margin-bottom: 20px;}
+            
+            #music { text-align: center; background-image: url('https://st2.depositphotos.com/1106005/7468/i/450/depositphotos_74680461-stock-photo-teal-black-and-white-music.jpg'); color: rgb(255, 255, 255); width: 100%; margin: auto; padding: 20px; border-radius: 10px;}
+            
+            #games { text-align: center; background-image: url('https://png.pngtree.com/png-vector/20221015/ourmid/pngtree-vectorized-joystick-symbol-grey-background-seamless-pattern-for-video-game-enthusiasts-vector-png-image_20210576.jpg'); color: rgb(255, 255, 255); width: 100%; margin: auto; padding: 20px; border-radius: 10px;}
+        
+            #movies { text-align: center; background-image: url('https://static.vecteezy.com/system/resources/previews/015/110/120/non_2x/cinema-seamless-pattern-background-seamless-pattern-with-movie-icons-background-vector.jpg'); color: rgb(255, 255, 255); width: 100%; margin: auto; padding: 20px; border-radius: 10px;}
+            
+            #boardgames { text-align: center; background-image: url('https://media.istockphoto.com/id/1284241635/vector/seamless-vector-pattern-with-board-game-pieces-on-dark-blue-background-fun-family-wallpaper.jpg?s=612x612&w=0&k=20&c=9F2dOsMx9nVSLGbAsQ5v6MZHhNfCgTq0x9sDQXZhhj8='); color: rgb(255, 255, 255); width: 100%; margin: auto; padding: 20px; border-radius: 10px;}
+            
+            .content { display: grid; grid-template-columns: repeat(2, 1fr); gap: 70px; width: 90%; margin: auto; background: none; padding: 0;}
+        
+            button { margin-bottom: 5px; }
+        
+            a:link {color: white;}
+            
+            a:visited {color: white;}
+               
+            a:hover {color: white;}
+
+            a:active {color: white;}
+   
+                
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center; color:rgb(255, 255, 255); background-color: rgb(0, 0, 0);">About Me</h1>
+        <div>
+            <h2>Hi, I am Forest.</h2>
+            <h2>I am currently learning HTML, CSS, and JavaScript. In my free time, I like to listen to music and play video games. I also enjoy reading books and watching movies. Not just that, I love making websites for practice as a way to improve my skills.</h2>
+        </div> <br> <br> <br>
+
+        <div class="content">
+
+            <div id="games">
+                <h2 style="background-color: rgb(0, 0, 0); color:white ">My Favorite Games</h2>
+                <a href="https://store.steampowered.com/app/205100/Dishonored/" id="gamelink" target="_blank"><img id="gameimg" src="https://static.wikia.nocookie.net/dishonoredvideogame/images/6/67/Dishonored-box-art-1-.jpg/revision/latest?cb=20120522210822" alt="Game Image"></a> <br>
+                <button onclick="changeImage('https://static.wikia.nocookie.net/dishonoredvideogame/images/6/67/Dishonored-box-art-1-.jpg/revision/latest?cb=20120522210822'); changelink('https://store.steampowered.com/app/205100/Dishonored/')">Dishonored</button> <br>
+                <button onclick="changeImage('https://static.wikia.nocookie.net/dishonoredvideogame/images/f/fb/Dishonore_2_cover_art.jpg/revision/latest?cb=20161009112535'); changelink('https://store.steampowered.com/app/403640/Dishonored_2/')">Dishonored 2</button> <br>
+                <button onclick="changeImage('https://upload.wikimedia.org/wikipedia/en/0/01/Death_of_the_Outsider_cover.jpg'); changelink('https://store.steampowered.com/app/614570/Dishonored_Death_of_the_Outsider/')">Dishonored: Death of the Outsider</button> <br>
+                <button onclick="changeImage('https://cdn2.steamgriddb.com/grid/7fee21a5a2378a1f76db9d1757346e6e.png'); changelink('https://store.steampowered.com/app/241930/Middleearth_Shadow_of_Mordor/')">Middle-earth: Shadow of Mordor</button> <br>     
+                <button onclick="changeImage('https://m.media-amazon.com/images/I/715iNqR0PDL.jpg'); changelink('https://store.steampowered.com/app/582160/Assassins_Creed_Origins/')">Assassin's Creed: Origins</button> <br>
+                <button onclick="changeImage('https://static.wikia.nocookie.net/assassinscreed/images/0/0b/Assassin%27s_Creed_Unity_Cover.jpg/revision/latest?cb=20220912072010'); changelink('https://store.steampowered.com/app/289650/Assassins_Creed_Unity/')">Assassin's Creed: Unity</button> <br>   
+                <button onclick="changeImage('https://assets-prd.ignimgs.com/2022/03/21/cctiberium-1647894231902.jpg?crop=1%3A1%2Csmart&format=jpg&auto=webp&quality=80'); changelink('https://store.steampowered.com/app/24790/Command__Conquer_3_Tiberium_Wars/')">Command & Conquer 3: Tiberium Wars</button> <br> 
+            </div>
+            
+            <div id="music">
+                <h2 style="background-color: rgb(0, 0, 0); color:white">My Favorite Artists</h2> 
+                <a href="https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz" id="musiclink" target="_blank"><img id="musicimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh-QvFw9YQ_PTsRj_OPu247S8AEPVxB6CxGZ2FZh1zWphDq3VdUGuSdohX&s=10"></a> <br> 
+                <button onclick="changemusicImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh-QvFw9YQ_PTsRj_OPu247S8AEPVxB6CxGZ2FZh1zWphDq3VdUGuSdohX&s=10'); changemusiclink('https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz')">Linkin Park</button> <br>
+                <button onclick="changemusicImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5DEnnBYVMVvy4DQz4x7cCkjKTyB_F9sKivA&s'); changemusiclink('https://open.spotify.com/artist/6olE6TJLqED3rqDCT0FyPh')"> Nirvana</button> <br>
+                <button onclick="changemusicImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmGaNW5quPymtNJXomVyIJSYDM-7YlL_8RUZ9C9efoPR93ly5F4X5Aunw&s=10'); changemusiclink('https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2')">The Beatles</button> <br>
+                <button onclick="changemusicImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY_UTr_QPVDFwEvbEnpMp9W__AwRTI2L9IFJRoBefKqmOj9JDyJv6o1j_Z&s=10'); changemusiclink('https://open.spotify.com/artist/3IYUhFvPQItj6xySrBmZkd')">Creedence Clearwater Revival</button> <br>
+                <button onclick="changemusicImage('https://cdn.displate.com/artwork/857x1200/2024-10-12/f2be9d1c-27db-4aee-b33a-d955d8854d83.jpg'); changemusiclink('https://open.spotify.com/artist/165ZgPlLkK7bf5bDoFc6Sb')">Limp Bizkit</button> <br>
+                <button onclick="changemusicImage('https://cdn.displate.com/artwork/270x380/2025-07-25/b24e28ad-5c9f-47f9-b51b-95a70a75754a.jpg'); changemusiclink('https://open.spotify.com/artist/05fG473iIaoy82BF1aGhL8')">Slipknot</button> <br>
+                <button onclick="changemusicImage('https://www.iamfy.co/cdn/shop/files/m_2Fx1000_2Fb54d768c-d1cf-4813-ac92-f36d6ae32a85.jpg?v=1760475005'); changemusiclink('https://open.spotify.com/artist/2ye2Wgw4gimLv2eAKyk1NB')">Metallica</button> <br> 
+            </div>
+
+            <div id="movies">
+                <h2 style="background-color: rgb(0, 0, 0); color:white">My Favorite Movies</h2>
+                <a href="https://www.imdb.com/title/tt0120737/" id="movielink" target="_blank"><img id="movieimg" src="https://upload.wikimedia.org/wikipedia/en/f/fb/Lord_Rings_Fellowship_Ring.jpg"></a> <br>
+                <button onclick="changemovieImage('https://upload.wikimedia.org/wikipedia/en/f/fb/Lord_Rings_Fellowship_Ring.jpg'); changemovielink('https://www.imdb.com/title/tt0120737/')">The Lord of the Rings: Fellowship of the Ring</button> <br>
+                <button onclick="changemovieImage('https://resizing.flixster.com/3ZvkmVoGsbasxSX66ydiWVCS7dY=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30793_p_v8_am.jpg'); changemovielink('https://www.imdb.com/title/tt0167261/')">The Lord of the Rings: The Two Towers</button> <br>
+                <button onclick="changemovieImage('https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33156_p_v8_aq.jpg'); changemovielink('https://www.imdb.com/title/tt0167260/')">The Lord of the Rings: Return of the King</button> <br>
+                <button onclick="changemovieImage('https://m.media-amazon.com/images/M/MV5BOTg2NDU4Mjg2NV5BMl5BanBnXkFtZTgwNjQ0MDIyMDI@._V1_.jpg'); changemovielink('https://www.imdb.com/title/tt0332379/')">The School of Rock</button> <br>
+                <button onclick="changemovieImage('https://upload.wikimedia.org/wikipedia/en/b/b6/Tenacious_d_in_the_pick_of_destiny_ver3.jpg'); changemovielink('https://www.imdb.com/title/tt0365830/')">Tenacious D in The Pick of Destiny</button> <br>
+                <button onclick="changemovieImage('https://resizing.flixster.com/Wg25mLoPWxjcxXzNyaSF4VGgGE4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2ZiNjZiNWFkLWVhNzEtNDRhMC1iNGIwLTFmY2FkNzllNTJlMi5qcGc='); changemovielink('https://www.imdb.com/title/tt0468569/')">The Dark Knight</button> <br>
+                <button onclick="changemovieImage('https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'); changemovielink('https://www.imdb.com/title/tt0111161/')">The Shawshank Redemption</button> <br>
+            </div> 
+
+            <div id="boardgames"> 
+                <h2 style="background-color: rgb(0, 0, 0); color:white">My Favorite Board Games</h2>
+                <a href="https://boardgamegeek.com/boardgame/198994/hero-realms" id="boardlink" target="_blank"><img id="boardimg" src="https://images.gamegator.net/co5e8y"></a> <br>
+                <button onclick="changeboardImage('https://images.gamegator.net/co5e8y'); changeboardlink('https://boardgamegeek.com/boardgame/198994/hero-realms')">Hero Realms</button> <br>
+                <button onclick="changeboardImage('https://cf.geekdo-images.com/MjeJZfulbsM1DSV3DrGJYA__itemrep/img/RjD03wEf_LoX0EF4DhnW6f0xNHU=/fit-in/246x300/filters:strip_icc()/pic5100691.jpg'); changeboardlink('https://boardgamegeek.com/boardgame/295947/cascadia')">Cascadia</button> <br>
+                <button onclick="changeboardImage('https://www.gaminglib.com/cdn/shop/files/harmonies-ph-208299.jpg?v=1753954351'); changeboardlink('https://boardgamegeek.com/boardgame/414317/harmonies')">Harmonies</button> <br>
+                <button onclick="changeboardImage('https://cf.geekdo-images.com/uXMeQzNenHb3zK7Hoa6b2w__itemrep/img/oaw-LYEIaB20e79Y568JgyHZ5NQ=/fit-in/246x300/filters:strip_icc()/pic7398904.jpg'); changeboardlink('https://boardgamegeek.com/boardgame/373106/sky-team')">Sky Team</button> <br>
+                <button onclick="changeboardImage('https://www.gaminglib.com/cdn/shop/files/bomb-busters-2256406.jpg?v=1764893588'); changeboardlink('https://boardgamegeek.com/boardgame/413246/bomb-busters')">Bomb Busters</button> <br>
+                <button onclick="changeboardImage('https://cf.geekdo-images.com/aNabLAdJAW0ot6hojnC9rw__itemrep/img/BwUJ5yt-3zSFU9AgJHrR4OZJqAU=/fit-in/246x300/filters:strip_icc()/pic4602889.jpg'); changeboardlink('https://boardgamegeek.com/boardgame/274093/quirky-circuits')">Quirky Circuits</button> <br>
+                <button onclick="changeboardImage('https://cf.geekdo-images.com/tz19PfklMdAdjxV9WArraA__medium/img/lT15Z0oTWlHnxZzPJ-AMcLCsRa4=/fit-in/500x500/filters:no_upscale():strip_icc()/pic3718275.jpg'); changeboardlink('https://boardgamegeek.com/boardgame/230802/azul')">Azul</button> <br> 
+            </div> 
+        
+        </div>
+
+        <a href="https://www.youtube.com/watch?v=uE-1RPDqJAY" target="_blank">They're taking the hobbits to Isengard</a>
+        
+    </body>
+    <script>
+        function changeImage(imageUrl) {
+            document.getElementById('gameimg').src = imageUrl;
+        }
+
+        function changelink(linkUrl) {
+            document.getElementById('gamelink').href = linkUrl}
+
+
+        function changemusicImage(imageUrl) {
+            document.getElementById('musicimg').src = imageUrl;
+        }
+
+        function changemusiclink(linkUrl) {
+            document.getElementById('musiclink').href = linkUrl}
+
+
+        function changemovieImage(imageUrl) {
+            document.getElementById('movieimg').src = imageUrl; }  
+
+
+        function changemovielink(linkUrl) {
+            document.getElementById('movielink').href = linkUrl}
+
+        
+        function changeboardImage(imageUrl) {
+            document.getElementById('boardimg').src = imageUrl; }
+
+
+        function changeboardlink(linkUrl) {
+            document.getElementById('boardlink').href = linkUrl}
+    </script>
+</html>

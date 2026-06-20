@@ -5,9 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About Me</title>
         <style>
-            body { margin: 0; padding: 20px 0; background-image: url('https://t3.ftcdn.net/jpg/04/37/99/10/360_F_437991086_GW6gZ630a3YfPJlHz2F22UeH28jZBaMI.jpg'); display: flex; flex-direction: column; align-items: center; box-sizing: border-box; }
+            body { margin: 0; padding: 20px 0; background-image: url('https://t3.ftcdn.net/jpg/04/37/99/10/360_F_437991086_GW6gZ630a3YfPJlHz2F22UeH28jZBaMI.jpg'); box-sizing: border-box; }
 
-            body > div { text-align: center; background-image: url('https://w0.peakpx.com/wallpaper/490/32/HD-wallpaper-dark-grey-abstract-abstract-background-dark-grey-thumbnail.jpg'); color: rgb(255, 255, 255); width: min(95%, 1200px); max-width: 1200px; margin: auto; padding: 20px; border-radius: 10px}
+            .page-wrapper { width: min(95%, 1200px); margin: 0 auto; }
+
+            .intro-box { text-align: center; background-image: url('https://w0.peakpx.com/wallpaper/490/32/HD-wallpaper-dark-grey-abstract-abstract-background-dark-grey-thumbnail.jpg'); color: rgb(255, 255, 255); width: 100%; margin: 0; padding: 20px; border-radius: 10px; }
             
             #gameimg { width: 190px; height: 250px; border-radius: 10px; margin-bottom: 20px;}
 
@@ -25,7 +27,7 @@
             
             #boardgames { text-align: center; background-image: url('https://media.istockphoto.com/id/1284241635/vector/seamless-vector-pattern-with-board-game-pieces-on-dark-blue-background-fun-family-wallpaper.jpg?s=612x612&w=0&k=20&c=9F2dOsMx9nVSLGbAsQ5v6MZHhNfCgTq0x9sDQXZhhj8='); color: rgb(255, 255, 255); width: 100%; margin: auto; padding: 20px; border-radius: 10px;}
             
-            .content { display: grid; grid-template-columns: repeat(2, 1fr); gap: 70px; width: min(95%, 1200px); margin: 0 auto; background: none; padding: 0;}
+            .content { display: grid; grid-template-columns: repeat(2, 1fr); gap: 70px; width: 100%; margin: 0; background: none; padding: 0;}
         
             button { margin-bottom: 5px; }
         
@@ -48,13 +50,16 @@
         </style>
     </head>
     <body>
-        <h1 style="text-align: center; color:rgb(255, 255, 255); background-color: rgb(0, 0, 0);">About Me</h1>
-        <div>
-            <h2>Hi, I am Forest.</h2>
-            <h2>I am currently learning HTML, CSS, and JavaScript. In my free time, I like to listen to music and play video games. I also enjoy reading books and watching movies. Not just that, I love making websites for practice as a way to improve my skills.</h2>
-        </div> <br> <br> <br>
+        <div class="page-wrapper">
+            <h1 style="text-align: center; color:rgb(255, 255, 255); background-color: rgb(0, 0, 0);">About Me</h1>
+            <div class="intro-box">
+                <h2>Hi, I am Forest.</h2>
+                <h2>I am currently learning HTML, CSS, and JavaScript. In my free time, I like to listen to music and play video games. I also enjoy reading books and watching movies. Not just that, I love making websites for practice as a way to improve my skills.</h2>
+            </div>
 
-        <div class="content">
+            <br> <br> <br>
+
+            <div class="content">
 
             <div id="games">
                 <h2 style="background-color: rgb(0, 0, 0); color:white ">My Favorite Games</h2>
@@ -106,8 +111,8 @@
         
         </div>
 
-        <a href="https://www.youtube.com/watch?v=uE-1RPDqJAY" target="_blank">They're taking the hobbits to Isengard</a>
-        
+            <a href="https://www.youtube.com/watch?v=uE-1RPDqJAY" target="_blank">They're taking the hobbits to Isengard</a>
+        </div>
     </body>
     <script>
         function changeImage(imageUrl) {

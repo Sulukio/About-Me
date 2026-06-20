@@ -2,79 +2,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About Me</title>
         <style>
-            body {
-                margin: 0;
-                padding: 20px;
-                background-image: url('https://t3.ftcdn.net/jpg/04/37/99/10/360_F_437991086_GW6gZ630a3YfPJlHz2F22UeH28jZBaMI.jpg');
-                background-size: cover;
-                background-position: center;
-                font-family: Arial, sans-serif;
-                color: white;
-            }
+            body { background-image: url('https://t3.ftcdn.net/jpg/04/37/99/10/360_F_437991086_GW6gZ630a3YfPJlHz2F22UeH28jZBaMI.jpg');}
 
-            div {
-                text-align: center;
-                background-image: url('https://w0.peakpx.com/wallpaper/490/32/HD-wallpaper-dark-grey-abstract-abstract-background-dark-grey-thumbnail.jpg');
-                color: rgb(255, 255, 255);
-                width: 100%;
-                max-width: 700px;
-                margin: auto;
-                padding: 20px;
-                border-radius: 10px;
-                box-sizing: border-box;
-            }
+            div { text-align: center; background-image: url('https://w0.peakpx.com/wallpaper/490/32/HD-wallpaper-dark-grey-abstract-abstract-background-dark-grey-thumbnail.jpg'); color: rgb(255, 255, 255); width: 50%; margin: auto; padding: 20px; border-radius: 10px}
+            
+            #gameimg { width: 190px; height: 250px; border-radius: 10px; margin-bottom: 20px;}
 
-            .content {
-                display: grid;
-                grid-template-columns: repeat(2, minmax(0, 1fr));
-                gap: 20px;
-                width: 100%;
-                max-width: 1200px;
-                margin: auto;
-                background: none;
-                padding: 0;
-                box-sizing: border-box;
-            }
+            #musicimg { width: 190px; height: 250px; border-radius: 10px; margin-bottom: 20px;}
 
-            img {
-                width: 100%;
-                max-width: 100%;
-                height: auto;
-                border-radius: 10px;
-                margin-bottom: 20px;
-            }
+            #movieimg { width: 190px; height: 250px; border-radius: 10px; margin-bottom: 20px;}
 
-            button {
-                width: 100%;
-                max-width: 100%;
-                margin-bottom: 8px;
-                padding: 10px;
-                border: none;
-                border-radius: 8px;
-                cursor: pointer;
-                background: rgba(0, 0, 0, 0.7);
-                color: white;
-            }
+            #boardimg { width: 190px; height: 250px; border-radius: 10px; margin-bottom: 20px;}
+            
+            #music { text-align: center; background-image: url('https://st2.depositphotos.com/1106005/7468/i/450/depositphotos_74680461-stock-photo-teal-black-and-white-music.jpg'); color: rgb(255, 255, 255); width: 100%; margin: auto; padding: 20px; border-radius: 10px;}
+            
+            #games { text-align: center; background-image: url('https://png.pngtree.com/png-vector/20221015/ourmid/pngtree-vectorized-joystick-symbol-grey-background-seamless-pattern-for-video-game-enthusiasts-vector-png-image_20210576.jpg'); color: rgb(255, 255, 255); width: 100%; margin: auto; padding: 20px; border-radius: 10px;}
+        
+            #movies { text-align: center; background-image: url('https://static.vecteezy.com/system/resources/previews/015/110/120/non_2x/cinema-seamless-pattern-background-seamless-pattern-with-movie-icons-background-vector.jpg'); color: rgb(255, 255, 255); width: 100%; margin: auto; padding: 20px; border-radius: 10px;}
+            
+            #boardgames { text-align: center; background-image: url('https://media.istockphoto.com/id/1284241635/vector/seamless-vector-pattern-with-board-game-pieces-on-dark-blue-background-fun-family-wallpaper.jpg?s=612x612&w=0&k=20&c=9F2dOsMx9nVSLGbAsQ5v6MZHhNfCgTq0x9sDQXZhhj8='); color: rgb(255, 255, 255); width: 100%; margin: auto; padding: 20px; border-radius: 10px;}
+            
+            .content { display: grid; grid-template-columns: repeat(2, 1fr); gap: 70px; width: 90%; margin: auto; background: none; padding: 0;}
+        
+            button { margin-bottom: 5px; }
+        
+            a:link {color: white;}
+            
+            a:visited {color: white;}
+               
+            a:hover {color: white;}
 
-            a:link,
-            a:visited,
-            a:hover,
-            a:active {
-                color: white;
-            }
-
-            @media (max-width: 900px) {
-                .content {
-                    grid-template-columns: 1fr;
-                }
-
-                body {
-                    padding: 10px;
-                }
-            }
+            a:active {color: white;}
+   
+                
         </style>
     </head>
     <body>

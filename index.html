@@ -7,7 +7,7 @@
         <style>
             body { margin: 0; padding: 20px; background-image: url('https://t3.ftcdn.net/jpg/04/37/99/10/360_F_437991086_GW6gZ630a3YfPJlHz2F22UeH28jZBaMI.jpg'); display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; box-sizing: border-box; }
 
-            div { text-align: center; background-image: url('https://w0.peakpx.com/wallpaper/490/32/HD-wallpaper-dark-grey-abstract-abstract-background-dark-grey-thumbnail.jpg'); color: rgb(255, 255, 255); width: 50%; margin: auto; padding: 20px; border-radius: 10px}
+            body > div { text-align: center; background-image: url('https://w0.peakpx.com/wallpaper/490/32/HD-wallpaper-dark-grey-abstract-abstract-background-dark-grey-thumbnail.jpg'); color: rgb(255, 255, 255); width: 50%; margin: auto; padding: 20px; border-radius: 10px}
             
             #gameimg { width: 190px; height: 250px; border-radius: 10px; margin-bottom: 20px;}
 
@@ -39,7 +39,7 @@
    
             @media (max-width: 900px) {
                 .content { grid-template-columns: 1fr; gap: 20px; }
-                div { width: 100%; padding: 10px; }
+                body > div, .content > div { width: 100%; padding: 10px; }
                 #gameimg, #musicimg, #movieimg, #boardimg { width: 100%; height: auto; }
                 button { width: 100%; }
                 body { padding: 10px; }
